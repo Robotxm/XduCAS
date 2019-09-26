@@ -1,0 +1,40 @@
+﻿<Window x:Class="XduCASDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="XduCAS Demo" Height="128" Width="192">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="学号:" Height="Auto" Width="Auto" HorizontalAlignment="Right" VerticalAlignment="Center" />
+            <Label Grid.Row="1" Grid.Column="0" Content="密码:" Height="Auto" Width="Auto" HorizontalAlignment="Right" VerticalAlignment="Center" />
+
+            <TextBox x:Name="Username" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="128" />
+            <PasswordBox x:Name="Password" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="128" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="LoginIds" Grid.Column="0" Content="登录 IDS" Height="Auto" Width="64" HorizontalAlignment="Center" VerticalAlignment="Center" Click="LoginIds_Click"/>
+            <Button x:Name="LoginXduApp" Grid.Column="1" Content="登录 i 西电" Height="Auto" Width="72" HorizontalAlignment="Center" VerticalAlignment="Center" Click="LoginXduApp_Click"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XduCAS", "XduCAS\XduCAS.csproj", "{16ACEE6E-0113-4DEA-A6FD-33DA4E988242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XduCASDemo", "XduCASDemo\XduCASDemo.csproj", "{D9B2E779-CAB1-493D-A2CC-325F4040F223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16ACEE6E-0113-4DEA-A6FD-33DA4E988242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ACEE6E-0113-4DEA-A6FD-33DA4E988242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ACEE6E-0113-4DEA-A6FD-33DA4E988242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ACEE6E-0113-4DEA-A6FD-33DA4E988242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B2E779-CAB1-493D-A2CC-325F4040F223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B2E779-CAB1-493D-A2CC-325F4040F223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B2E779-CAB1-493D-A2CC-325F4040F223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B2E779-CAB1-493D-A2CC-325F4040F223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D36E94-3C31-4FC8-B86C-5EE43BC619E5}
+	EndGlobalSection
+EndGlobal
